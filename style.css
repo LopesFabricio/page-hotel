@@ -1,0 +1,130 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background-color: rgba(17, 117, 199, 0.701);
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #43c6ac, #f8ffae;
+    padding: 20px;
+    max-width: 1200px;
+    
+    
+    
+}
+
+.titulo{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    
+
+}
+
+.items-Cabeçalho{
+    color: white;
+    font-size: 20px;
+    float: right;
+    list-style: none;
+    padding-left: 50px;
+}
+
+.lista-Cabeçalho{
+   position: relative;
+   bottom: 25px;
+    
+}
+
+.corpo{
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+    height: 800px;
+    background-image: url(./imagens/WhatsApp\ Image\ 2022-05-12\ at\ 14.56.47.jpeg);
+    background-size: cover;
+    
+    
+    
+}
+
+
+
+.paragrafo{
+    font-size: 25px;
+    text-indent: 50px;
+}
+
+.texto{
+    box-sizing: border-box;
+    font-size: 20px;
+    position: relative;
+    padding-left: 30%;
+    top: 300px;
+    color: white;
+    
+}
+.container{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.container-footer{
+    background-color: rgba(17, 117, 199, 0.701);
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: auto;
+    height: 200px;
+
+}
+
+.items-footer{
+    
+    float: left;
+    margin-right: 90px;
+    align-items: center;
+}
+
+.ul-Footer{
+    
+    padding-left: 230px;
+    position: relative;
+    top: 100px;
+}
+
+#item-1{
+    list-style-image: url(./imagens/icons8-whatsapp-48.png);
+}
+
+#item-2{
+    list-style-image: url(./imagens/icons8-instagram-48.png);
+    
+}
+
+#item-3{
+    list-style-image: url(./imagens/icons8-endereço-48.png);
+}
+
+link{
+    text-decoration: none;
+    
+}
+
+.links:visited{
+    color: black;
+}
+
+
