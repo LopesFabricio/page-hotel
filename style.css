@@ -17,6 +17,7 @@ header{
     background-color: #43c6ac, #f8ffae;
     padding: 20px;
     max-width: 1200px;
+    height: 80px;
     
     
     
@@ -25,7 +26,7 @@ header{
 .titulo{
     color: white;
     font-size: 30px;
-    text-align: left;
+    float: left;
     font-weight: bold;
     
 
@@ -37,13 +38,10 @@ header{
     float: right;
     list-style: none;
     padding-left: 50px;
+    margin-top: 10px;
 }
 
-.lista-Cabeçalho{
-   position: relative;
-   bottom: 25px;
-    
-}
+
 
 .corpo{
     box-sizing: border-box;
@@ -98,11 +96,11 @@ header{
     align-items: center;
 }
 
-.ul-Footer{
-    
-    padding-left: 230px;
+.ul-footer{
+    margin-left: 260px;
     position: relative;
-    top: 100px;
+    top: 80px;
+   
 }
 
 #item-1{
@@ -125,6 +123,32 @@ link{
 
 .links:visited{
     color: black;
+}
+
+@media screen and ( max-width: 700px) {
+    .titulo{
+    float:none;
+    text-align: center;
+}
+   
+.menu{
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+   .items-Cabeçalho{
+       
+       float: none;
+       text-align: center;
+       margin-top: 20px;
+       font-size: 25px;
+   }
+
+   .ul-footer{
+       margin-bottom: 30px;
+   }
+
+
 }
 
 
